@@ -1,15 +1,12 @@
 
 import './App.css';
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Modal from './modal'
 import Navigation from './Navigation';
 import AppRoutes from './AppRoutes';
 
 
-if(!localStorage.getItem('products')){(async() => {const products = await fetch('productsJSON.json').then(response => response.json())
 
-
-localStorage.setItem('products',JSON.stringify(products))})()}
 const initLocalStorage = () =>{
  
   let addCardsArr =[]
@@ -27,7 +24,8 @@ const  App = ()=> {
  
 const [state,setState] = useState({
   isOpenModal:false,
-  products: JSON.parse(localStorage.getItem('products')),
+  products: [],
+  //JSON.parse(localStorage.getItem('products')),
  
  text:'Are  you sure you want to add this product to cart?',
    backgroundColor:'cadetblue',
@@ -39,6 +37,27 @@ const [state,setState] = useState({
 
 
 })
+
+useEffect(()=>{
+
+
+ if(!localStorage.getItem('products')){
+ (async() => {const products = await fetch('productsJSON.json').then(response => response.json())
+
+setState({...state,products:products})
+
+localStorage.setItem('products',JSON.stringify(products))
+
+
+})()
+}else{
+  setState({...state,products:JSON.parse(localStorage.getItem('products'))})
+
+}}
+  
+  
+  ,[])
+
 
 const deleteCartItem =(id) =>{
 
