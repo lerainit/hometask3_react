@@ -1,0 +1,16 @@
+[
+    {"id":1,"name":"Dress Mango","price":1235,"url":"https://static.invogue.ua/media/products/media/data/product-15866/IMG_6027.JPG","art":34567,"color":"blue","addFavorites":false},
+    {"id":2,"name":"Skirt Zara","price":995,"url":"https://d1flfk77wl2xk4.cloudfront.net/Assets/GalleryImage/16/295/L_g0081129516.jpg","art":23456,"color":"red","addFavorites":false},
+    {"id":3,"name":"Shirt Michael Kors","price":789,"url":"https://cdn.shopify.com/s/files/1/1575/6087/products/IMG_8605_1900x.jpg?v=1652181833","art":23456,"color":"grey","addFavorites":false},
+    {"id":4,"name":"Pants Intertop","price":985,"url":"https://cdn.shopify.com/s/files/1/0921/1242/products/LucyParisLabel03.23.20211078_2333x.jpg?v=1629327400","art":1234,"color":"yellow","addFavorites":false},
+    {"id":5,"name":"Jeans Mango","price":789,"url":"https://bonlook.ua/image/cache/catalog/marella/f6/f6968c58-331a-11ec-8dcf-000c29ac654d-490x635.jpg","art":6543,"color":"blue","addFavorites":false},
+    {"id":6,"name":"T-shirt Tezenis","price":765,"url":"https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/b/a/basic_red_tee1.jpg","art":45673,"color":"red","addFavorites":false},
+    {"id":7,"name":"Dress Zara","price":1234,"url":"https://cdn.shopify.com/s/files/1/0002/8783/4131/products/Untitled-1_0000_IMG_7167_981x.jpg?v=1655110789","art":43568,"color":"purple","addFavorites":false},
+    {"id":8,"name":"Skirt Bershka","price":1205,"url":"https://cdn.shopify.com/s/files/1/1689/2633/products/Kai_Top_Black_Sea_Skirt_010_edit_web_9c1d5138-b19c-4866-8485-670964124436_2048x.progressive.jpg?v=1660182701","art":8765,"color":"black","addFavorites":false},
+    {"id":9,"name":"Shirt Stradivarius","price":1265,"url":"https://media.md-fashion.com.ua/images/e6/f8/74a4354305069d396747467e24cb.jpg","art":87643,"color":"white","addFavorites":false},
+    {"id":10,"name":"Pants Pull and Bear","price":1096,"url":"https://cdn.shopify.com/s/files/1/0219/4232/products/above_001_854620c4-2e4a-453f-a357-a805cb1cbe84_1024x1024.jpg?v=1655945865","art":8764,"color":"purple","addFavorites":false}
+
+ ]
+
+
+

@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App {text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: center; 
+   flex-wrap: wrap;
+   gap: 10px;
+}
+
+
+ul{
+  width: 300px;
+  height: 350px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+  list-style: none;
+  background-color:rgb(59,122,87,0.3);
+ 
+}
+span{
+  color: darkblue;
+  font-weight: bold;
+}
+
+
+.favorites_btn{
+  width: 80px;
+  height: 40px;
+  border-radius: 7px;
+}
+li{
+  margin: 5px;
+}
+li:first-child{
+  margin-top: 20px;
+}
+.addCart_btn{
+  width: 80px;
+  height: 30px;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  border-radius: 7px;
+}
+.image{
+  width: 200px;
+  height: 200px;
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  color: royalblue;
+}
+.cart{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.favorite_img{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 22px;
+ 
+}
+.container{
+  width: 500px;
+  display: flex;
+  color: cadetblue;
+  gap:7px;
+}
+.button_container{
+  width: 200px;
+  height: 70px;
+}
+.clear_cart_btn{
+  width: 60px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: cadetblue;
+  color: #fff;
+  margin-top: 10px;
+}
+.clear_fav_btn{
+  width: 70px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: cadetblue;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.outer_container{
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+
+ 
+  top: 0;
+  background-color:rgba(0,0,0,0.7);
+}
+@media(max-width:980px){
+  .outer_container{
+height: 2100px;
+  }
+}
+.modal_main_container{
+  width: 550px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  background-color: aliceblue;
+  transform: translate(-50%,-50%);
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.close_btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+  background-color:crimson;
+  color: #fff;
+  margin-left: 510px;
+
+}
+.modal_btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  background-color:lightslategrey;
+  color: #fff;
+
+}
