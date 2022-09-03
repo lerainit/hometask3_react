@@ -9,7 +9,7 @@ const AppRoutes = (props) => {
      
         <Routes>
             <Route path='/' element={   <ProductPage  products={props.products} openModal={props.openModal} addFavoritesFunc={props.addFavoritesFunc}  ></ProductPage>} />
-           <Route path='/favorites' element={<FavoritesPage/>} />
+           <Route path='/favorites' element={<FavoritesPage  addFavorites ={props.addFavorites}/>} />
          
            <Route path='/cart' element={<CartPage addCards={JSON.parse(localStorage.getItem('addCards'))} deleteCartItem ={props.deleteCartItem}/>}/>
          </Routes>

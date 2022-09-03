@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import Modal from './modal'
 import Navigation from './Navigation';
 import AppRoutes from './AppRoutes';
-import Cart from './cart';
+
 
 if(!localStorage.getItem('products')){(async() => {const products = await fetch('productsJSON.json').then(response => response.json())
 
@@ -87,8 +87,7 @@ console.log(state.addFavoritesArr)
   }
 
 
- const clearFavorites =()=>{console.log('clearfav')}
- const clearCart =()=>{console.log('clearcart')}
+ 
 
  const addCart=(id)=> {
   const index = state.products.findIndex(el => id === el.id)
@@ -108,7 +107,7 @@ console.log(state.addFavoritesArr)
     <div className='App'>
 <Navigation addCards={state.addCardsArr.length} addFavoritesPage={state.addFavoritesArr.length} />
       
-       <AppRoutes products={state.products} openModal={openModal} addFavoritesFunc={addtoFavorites} deleteCartItem ={deleteCartItem}/>
+       <AppRoutes addFavorites={state.addFavoritesArr} products={state.products} openModal={openModal} addFavoritesFunc={addtoFavorites} deleteCartItem ={deleteCartItem}/>
 
 
        {state.isOpenModal &&
